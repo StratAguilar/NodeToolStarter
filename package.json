@@ -2,18 +2,30 @@
   "name": "node_tool_starter",
   "version": "1.0.0",
   "description": "Project for scaffolding terminal tools",
-  "main": "index.js",
+  "main": "bld/index.js",
+  "bin": {
+    "start": "bld/index.js",
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/StratAguilar/NodeToolStarter.git"
+    "url": "https://github.com/StratAguilar/NodeToolStarter.git"
   },
   "author": "Strat Aguilar",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/StratAguilar/NodeToolStarter/issues"
   },
-  "homepage": "https://github.com/StratAguilar/NodeToolStarter#readme"
+  "homepage": "https://github.com/StratAguilar/NodeToolStarter#readme",
+  "dependencies": {
+    "commander": "^2.12.2"
+  },
+  "devDependencies": {
+    "@types/node": "^9.4.7",
+    "typescript": "^2.7.2"
+  }
 }
