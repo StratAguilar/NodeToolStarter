@@ -1,0 +1,19 @@
+{
+  "name": "node_tool_starter",
+  "version": "1.0.0",
+  "description": "Project for scaffolding terminal tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StratAguilar/NodeToolStarter.git"
+  },
+  "author": "Strat Aguilar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StratAguilar/NodeToolStarter/issues"
+  },
+  "homepage": "https://github.com/StratAguilar/NodeToolStarter#readme"
+}
